@@ -1,0 +1,343 @@
+/* CSS base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #74baf7;
+  padding-bottom: 150px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #025F83;
+  color: #ecf0f1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+.navbar-logo{
+  margin-left: auto; 
+  max-height: 90px; 
+  padding: 5px; 
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.menu li {
+  padding: 10px 25px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.menu li:hover,
+.menu li.active {
+  background-color: #5597e2;
+}
+
+.menu li.active {
+  border-bottom: 3px solid white;
+}
+
+
+.content {
+  padding-top: 180px;
+}
+
+/* Footer */
+.footer {
+  background-color: #025F83;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer p {
+  margin: 0;
+  padding: 3px;
+}
+
+.leftfooter,
+.rightfooter {
+  margin: 0 25px;
+}
+
+/* HomePage - Css */
+.home-container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 20px;
+}
+
+h1.inicial {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.boxHP,
+.boxIeD,
+.selfhelp-container,
+.formulary-container {
+  background-color:white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  color: #025F83;
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* FormularyPage */
+.formulary-container,
+.selfhelp-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #5597e2;
+  color: white;
+}
+
+.formulary-title,
+.selfhelp-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #025F83;
+}
+
+/* HelpPage */
+.selfhelp-container {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-text {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555555;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.labelquiz {
+  display: block;
+  padding: 8px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+label:hover {
+  background-color: #efefef;
+}
+
+.botaoquiz {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.botaoquiz:hover {
+  background-color: #025F83;
+}
+
+.messageafter {
+  font-size: 20px;
+  background-color: #025F83;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.testimony {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.test {
+  color: #025F83;
+  font-size: 20px;
+}
+
+/* MediaQuery */
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    padding: 10px 0;
+  }
+
+  .content {
+    padding-top: 180px;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .perfil,
+  .timeline,
+  .inicial,
+  .settings,
+  .selfhelp,
+  .selfhelp-container {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .home-container,
+  .boxHP,
+  .boxIeD,
+  .formulary-container,
+  .selfhelp-container {
+    padding: 15px;
+  }
+
+  h1.inicial {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .question-container {
+    margin-bottom: 15px;
+  }
+
+  .botaoquiz {
+    margin-top: 15px;
+  }
+
+  .messageafter {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .testimony {
+    font-size: 30px;
+  }
+
+  .test {
+    font-size: 18px;
+  }
+}
+
+/* CSS TestimonyPage */
+.column {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+  padding: 20px;
+  color: black;
+}
+
+.heartsandstars {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+/* MediaQuery */
+@media only screen and (max-width: 768px) {
+
+  .column {
+    padding: 0 10px;
+  }
+
+  .box {
+    padding: 15px;
+  }
+}
