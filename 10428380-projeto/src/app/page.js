@@ -6,16 +6,18 @@ function HomePage() {
   return (
 <div className="home-container">
       <h1 className="inicial">Página Inicial</h1>
+      <div className="column-container">
+      <div className="column1">
       <div className="boxHP">
         <h2>Quem Somos Nós?</h2>
-        <p>MackCuida: Uma Comunidade Livre e Saudável.</p>
+        <p><strong>MackCuida:</strong> Uma Comunidade Livre e Saudável.</p>
         <p>Nós somos um grupo chamado "MackCuida", e reconhecemos o impacto devastador do abuso de drogas e álcool, especialmente entre os jovens. Guiados pelo Objetivo de Desenvolvimento Sustentável 3.5 da ONU, reforçamos a prevenção e o tratamento do vício na comunidade Mackenzie, buscando um futuro onde os estudantes estejam livres do vício e possam alcançar seu pleno potencial.</p>
-        <p>Acreditamos em uma comunidade onde:</p>
-        <p>Informação acessível: fornecemos informações claras e precisas sobre os perigos do abuso de substâncias, utilizando linguagem acessível e materiais informativos de alta qualidade.</p>
-        <p>Prevenção priorizada: desenvolvemos programas e campanhas de conscientização para promover a prevenção do vício entre os estudantes, desde a primeira fase da vida universitária.</p>
-        <p>Apoio fundamental: oferecemos um ambiente acolhedor e confidencial para que estudantes possam buscar ajuda e orientação sobre questões relacionadas ao vício, sem julgamentos ou constrangimentos.</p>
-        <p>Recuperação possível: conectamos estudantes com profissionais de saúde qualificados e recursos de tratamento eficazes para auxiliar na recuperação do vício e na construção de uma vida livre das drogas.</p>
-        <p>Junte-se a nós!</p>
+        <p><strong>Acreditamos em uma comunidade onde:</strong></p>
+        <p><strong>Informação acessível:</strong> fornecemos informações claras e precisas sobre os perigos do abuso de substâncias, utilizando linguagem acessível e materiais informativos de alta qualidade.</p>
+        <p><strong>Prevenção priorizada:</strong> desenvolvemos programas e campanhas de conscientização para promover a prevenção do vício entre os estudantes, desde a primeira fase da vida universitária.</p>
+        <p><strong>Apoio fundamental:</strong> oferecemos um ambiente acolhedor e confidencial para que estudantes possam buscar ajuda e orientação sobre questões relacionadas ao vício, sem julgamentos ou constrangimentos.</p>
+        <p><strong>Recuperação possível:</strong> conectamos estudantes com profissionais de saúde qualificados e recursos de tratamento eficazes para auxiliar na recuperação do vício e na construção de uma vida livre das drogas.</p>
+        <p><strong>Junte-se a nós!</strong></p>
       </div>
       <div className="boxHP">
         <h2>Nossa Proposta</h2>
@@ -32,16 +34,16 @@ function HomePage() {
       <div className="boxHP">
         <h2>Funcionalidades</h2>
         <p>Lutando contra o vício? Você não está sozinho(a)! Aqui no grupo "Mackenzie contra o vicio de substâncias ilegais", oferecemos um espaço acolhedor e seguro para te auxiliar na jornada de superação. Através de ferramentas e recursos abrangentes, você terá o apoio necessário para se libertar do vício e construir uma vida plena e feliz.</p>
-        <p>O que você pode encontrar em nosso site:</p>
-        <p>Autoajuda:</p>
-        <p>Dicas e informações: Explore artigos, guias e vídeos informativos sobre os diversos tipos de vício, seus efeitos e as melhores estratégias para combatê-los.</p>
-        <p>Testes e avaliações: Faça testes online para identificar se você está em risco de desenvolver um vício ou se já precisa de ajuda profissional.</p>
-        <p>Planejamento personalizado: Crie um plano de ação personalizado para sua jornada de recuperação, definindo metas, estratégias e buscando o apoio necessário.</p>
-        <p>Suporte profissional:</p>
-        <p>Formulário de contato: Entre em contato conosco através do nosso formulário seguro e sigiloso. Nossa equipe de especialistas está à disposição para te orientar e direcionar para o melhor tipo de ajuda.</p>
-        <p>Links para ajuda profissional: Encontre uma lista completa de instituições, clínicas e profissionais especializados em tratamento de vícios em sua região.</p>
-        <p>Aplicativos de apoio: Conheça e baixe aplicativos que podem te auxiliar no seu dia a dia, oferecendo ferramentas de monitoramento, lembretes, técnicas de relaxamento e suporte emocional.</p>
-        <p>Números de telefone para ajuda imediata: Em caso de crise ou necessidade urgente de apoio, tenha acesso a números de telefone de serviços de ajuda gratuitos e confidenciais.</p>
+        <p><strong>O que você pode encontrar em nosso site:</strong></p>
+        <p><strong>Autoajuda:</strong></p>
+        <p><strong>Dicas e informações:</strong> Explore artigos, guias e vídeos informativos sobre os diversos tipos de vício, seus efeitos e as melhores estratégias para combatê-los.</p>
+        <p><strong>Testes e avaliações:</strong> Faça testes online para identificar se você está em risco de desenvolver um vício ou se já precisa de ajuda profissional.</p>
+        <p><strong>Planejamento personalizado:</strong> Crie um plano de ação personalizado para sua jornada de recuperação, definindo metas, estratégias e buscando o apoio necessário.</p>
+        <p><strong>Suporte profissional:</strong></p>
+        <p><strong>Formulário de contato:</strong> Entre em contato conosco através do nosso formulário seguro e sigiloso. Nossa equipe de especialistas está à disposição para te orientar e direcionar para o melhor tipo de ajuda.</p>
+        <p><strong>Links para ajuda profissional:</strong> Encontre uma lista completa de instituições, clínicas e profissionais especializados em tratamento de vícios em sua região.</p>
+        <p><strong>Aplicativos de apoio:</strong> Conheça e baixe aplicativos que podem te auxiliar no seu dia a dia, oferecendo ferramentas de monitoramento, lembretes, técnicas de relaxamento e suporte emocional.</p>
+        <p><strong>Números de telefone para ajuda imediata:</strong> Em caso de crise ou necessidade urgente de apoio, tenha acesso a números de telefone de serviços de ajuda gratuitos e confidenciais.</p>
         <p>Além disso, aqui em nosso site nós te convencemos a procurar ajuda! Você não precisa sofrer e nem passar por isso sozinho, explore nosso site e veja os benefícios que o tratamento pode trazer à sua vida!</p>
 
       </div>
@@ -57,6 +59,8 @@ function HomePage() {
         <p>No MackCuida, valorizamos a diversidade e a individualidade de cada membro. Criamos um ambiente de apoio e respeito mútuo, onde todos são encorajados a expressar suas preocupações, buscar orientação e oferecer suporte uns aos outros de maneira empática e solidária. Nossa comunidade é baseada na compreensão de que cada jornada de recuperação é única, e estamos aqui para apoiar e encorajar uns aos outros em cada passo do caminho.</p>
         <p>Em resumo, a segurança e privacidade dos nossos membros são fundamentais para o grupo MackCuida. Estamos comprometidos em fornecer um espaço confiável e acolhedor, onde todos possam se sentir seguros para compartilhar suas experiências, buscar ajuda e trabalhar juntos na jornada rumo a uma vida mais saudável e equilibrada, livre do consumo excessivo de álcool e substâncias ilegais.</p>
       </div>
+    </div>
+    </div>
     </div>
   );
 }
@@ -131,78 +135,78 @@ function SupportPage() {
     <div className="boxIeD">
       <h2>Tratamento Médico e Desintoxicação</h2>
       <p>Na luta contra o vício de substâncias ilegais, o Tratamento Médico e a Desintoxicação se erguem como pilares fundamentais para a recuperação e a construção de um futuro livre das drogas. Mais do que simples medidas isoladas, representam um processo holístico e multifacetado que visa atacar o vício em suas diversas frentes, desde os aspectos físicos até os psicológicos e sociais.</p>
-      <p>Compreendendo a Complexidade do Vício:</p>
+      <p><strong>Compreendendo a Complexidade do Vício:</strong></p>
       <p>O vício é uma doença complexa e crônica que afeta o cérebro e o comportamento do indivíduo. Caracteriza-se por um desejo compulsivo de usar substâncias, mesmo diante de consequências negativas, e pela perda de controle sobre o uso. Essa compulsão é impulsionada por alterações neuroquímicas no cérebro, que tornam cada vez mais difícil resistir à droga.</p>
-      <p>O Papel Essencial do Tratamento Médico:</p>
+      <p><strong>O Papel Essencial do Tratamento Médico:</strong></p>
       <p>O Tratamento Médico assume um papel crucial na jornada de recuperação, pois oferece suporte profissional e especializado para lidar com os diversos aspectos do vício. Através de uma avaliação individualizada, médicos e outros profissionais de saúde definem um plano de tratamento personalizado, que pode incluir:</p>
-      <p>Terapia Médica: Abordagem fundamental para tratar os sintomas físicos da abstinência, como dor, náuseas e insônia, garantindo um processo de desintoxicação seguro e eficaz.</p>
-      <p>Avaliação Psiquiátrica: Permite identificar e tratar comorbidades como depressão, ansiedade e transtornos de personalidade, que podem estar contribuindo para o vício ou dificultando a recuperação.</p>
-      <p>Medicação: O uso de medicamentos específicos pode ser indicado para auxiliar no controle dos sintomas da abstinência, reduzir o desejo por drogas e tratar comorbidades psiquiátricas, potencializando o sucesso do tratamento.</p>
-      <p>Orientação Familiar: Envolve o apoio e a educação dos familiares sobre o vício e como auxiliar no processo de recuperação do indivíduo, promovendo um ambiente familiar mais propício à mudança.</p>
-      <p>A Desintoxicação: Um Novo Começo:</p>
+      <p><strong>Terapia Médica:</strong> Abordagem fundamental para tratar os sintomas físicos da abstinência, como dor, náuseas e insônia, garantindo um processo de desintoxicação seguro e eficaz.</p>
+      <p><strong>Avaliação Psiquiátrica:</strong> Permite identificar e tratar comorbidades como depressão, ansiedade e transtornos de personalidade, que podem estar contribuindo para o vício ou dificultando a recuperação.</p>
+      <p><strong>Medicação:</strong> O uso de medicamentos específicos pode ser indicado para auxiliar no controle dos sintomas da abstinência, reduzir o desejo por drogas e tratar comorbidades psiquiátricas, potencializando o sucesso do tratamento.</p>
+      <p><strong>Orientação Familiar:</strong> Envolve o apoio e a educação dos familiares sobre o vício e como auxiliar no processo de recuperação do indivíduo, promovendo um ambiente familiar mais propício à mudança.</p>
+      <p><strong>A Desintoxicação:</strong> Um Novo Começo:</p>
       <p>A Desintoxicação marca o início da jornada de recuperação, sendo um processo crucial para eliminar as substâncias do corpo e aliviar os sintomas físicos da abstinência. Através de acompanhamento médico rigoroso, a desintoxicação garante a segurança e o bem-estar do indivíduo, minimizando os riscos e desconfortos associados à abstinência.</p>
-      <p>Mais do que Abstinência:</p>
+      <p><strong>Mais do que Abstinência:</strong></p>
       <p>A desintoxicação vai além da mera abstinência física. É um processo que prepara o terreno para a recuperação psicológica e social, abrindo caminho para que o indivíduo possa lidar com os desafios emocionais e comportamentais do vício.</p>
-      <p>Um Caminho para a Recuperação:</p>
+      <p><strong>Um Caminho para a Recuperação:</strong></p>
       <p>O Tratamento Médico e a Desintoxicação não são soluções mágicas ou atalhos para a cura. Representam o início de um árduo processo de recuperação que exige dedicação, persistência e apoio profissional contínuo. No entanto, são pilares indispensáveis para construir uma vida livre do vício e alcançar o pleno potencial.</p>
       <p>Juntos, podemos construir uma comunidade livre do vício e com um futuro promissor para todos!</p>
 
       </div>
     <div className="boxIeD">
       <h2>Terapia e Aconselhamento</h2>
-      <p>Guiando a Jornada de Recuperação:</p>
+      <p><strong>Guiando a Jornada de Recuperação:</strong></p>
       <p>Na luta contra o vício de substâncias ilegais, Terapia e Aconselhamento se revelam ferramentas valiosas para auxiliar o indivíduo em sua jornada de recuperação. Mais do que simples conversas, representam um processo profundo e personalizado que visa abordar os aspectos psicológicos, sociais e emocionais do vício, promovendo a mudança de comportamento e a construção de uma vida livre das drogas.</p>
-      <p>Mergulhando nas Profundezas do Vício:</p>
+      <p><strong>Mergulhando nas Profundezas do Vício:</strong></p>
       <p>O vício é uma doença complexa que transcende os limites físicos da dependência química. Envolve questões emocionais, comportamentais e sociais que, se não forem devidamente exploradas e tratadas, podem comprometer o processo de recuperação. É nesse contexto que a Terapia e o Aconselhamento assumem um papel crucial.</p>
-      <p>A Jornada da Autodescoberta:</p>
+      <p><strong>A Jornada da Autodescoberta:</strong></p>
       <p>Através de um ambiente seguro e confidencial, a Terapia oferece ao indivíduo a oportunidade de explorar seus sentimentos, pensamentos e comportamentos relacionados ao vício. Com o auxílio de um profissional qualificado, ele pode identificar os gatilhos, compreender as raízes do vício, desenvolver habilidades de enfrentamento, fortalecer a autoestima.</p>
-      <p>O Poder do Aconselhamento:</p>
+      <p><strong>O Poder do Aconselhamento:</strong></p>
       <p>O Aconselhamento, por sua vez, oferece um espaço para o indivíduo discutir seus objetivos, desafios e progressos na jornada de recuperação. Com base em sua experiência e conhecimento, o profissional de aconselhamento pode orientar e motivar, educar sobre o vício, desenvolver um plano de recuperação individualizado, conectar com recursos de apoio. </p>
-      <p>Terapia e Aconselhamento: Uma Jornada Conjunta:</p>
+      <p><strong>Terapia e Aconselhamento: Uma Jornada Conjunta:</strong></p>
       <p>Terapia e Aconselhamento não são soluções isoladas, mas sim ferramentas complementares que, quando utilizadas em conjunto, potencializam os resultados da recuperação. Ao abordar os aspectos psicológicos, sociais e emocionais do vício, essas ferramentas auxiliam o indivíduo a desenvolver resiliência, fortalecer sua autoestima e construir uma vida livre das drogas.</p>
       <p>Existem diversos recursos disponíveis para auxiliar na recuperação, como grupos de apoio, clínicas especializadas e linhas de apoio telefônico.</p>
 
     </div>
     <div className="boxIeD">
       <h2>Grupos de Apoio</h2>
-      <p>A Força da Comunidade na Jornada de Recuperação:</p>
+      <p><strong>A Força da Comunidade na Jornada de Recuperação:</strong></p>
       <p>Na luta contra o vício de substâncias ilegais, os Grupos de Apoio se erguem como um pilar fundamental na jornada de recuperação, oferecendo um espaço seguro e acolhedor para que indivíduos em situação de vício encontrem apoio, compreensão e ferramentas para lidar com os desafios da recuperação. Mais do que simples reuniões, representam uma comunidade de pessoas que compartilham experiências, oferecem incentivo mútuo e constroem laços de amizade e solidariedade, promovendo a mudança e a construção de uma vida livre das drogas.</p>
-      <p>Entendendo o Poder dos Grupos de Apoio:</p>
+      <p><strong>Entendendo o Poder dos Grupos de Apoio:</strong></p>
       <p>O vício é uma doença complexa e multifacetada que transcende os limites da dependência física. Envolve aspectos psicológicos, sociais e emocionais que, se não forem devidamente explorados e tratados, podem comprometer o processo de recuperação. É nesse contexto que os Grupos de Apoio assumem um papel crucial, oferecendo um ambiente propício para compartilhamento de experiências, apoio mútuo, motivação e incentivo, desenvolvimento de habilidades, aprendizado com a experiência de outros</p>
-      <p>Diversidade de Grupos:</p>
+      <p><strong>Diversidade de Grupos:</strong></p>
       <p>Existem diversos tipos de Grupos de Apoio disponíveis, atendendo às diferentes necessidades e características dos indivíduos em situação de vício. Alguns grupos são específicos para determinados tipos de substâncias, enquanto outros são mais abrangentes e acolhem pessoas com diferentes tipos de vícios. É importante buscar o grupo que melhor se encaixa nas suas necessidades e expectativas.</p>
 
     </div>
     <div className="boxIeD">
       <h2>Suporte Familiar</h2>
-      <p>Pilar Fundamental na Jornada de Recuperação:</p>
+      <p><strong>Pilar Fundamental na Jornada de Recuperação:</strong></p>
       <p>Na luta contra o vício de substâncias ilegais, o Suporte Familiar se ergue como um pilar fundamental na jornada de recuperação, oferecendo ao indivíduo em situação de vício uma rede de amor, apoio e compreensão que o auxilia a superar os desafios e construir uma vida livre das drogas. Mais do que simples presença física, o Suporte Familiar representa um conjunto de ações e atitudes que demonstram amor, cuidado e confiança no potencial do indivíduo para se recuperar.</p>
-      <p>Compreendendo a Importância do Suporte Familiar:</p>
+      <p><strong>Compreendendo a Importância do Suporte Familiar:</strong></p>
       <p>O vício é uma doença complexa que afeta não apenas o indivíduo que usa drogas, mas também toda a família. As consequências do vício podem se manifestar de diversas formas, como problemas financeiros, conflitos familiares, violência doméstica e negligência de crianças. Nesse contexto, o Suporte Familiar assume um papel crucial para promover um ambiente familiar acolhedor e seguro, oferecer apoio emocional, incentivar a busca por ajuda profissional, auxiliar na organização e acompanhamento do tratamento, celebrar conquistas e progressos, manter a esperança e a positividade</p>
-      <p>Como Oferecer Suporte Familiar:</p>
+      <p><strong>Como Oferecer Suporte Familiar:</strong></p>
       <p>Existem diversas maneiras de oferecer Suporte Familiar a um indivíduo em situação de vício. Algumas dicas importantes incluem: educar-se sobre o vício, comunicar-se de forma clara e honesta, estabelecer limites claros, evitar a culpabilização e a crítica, cuidar de si mesmo</p>
       </div>
     <div className="boxIeD">
       <h2>Recursos Online e Linhas de Ajuda</h2>
-      <p>Apoio na Palma da Sua Mão: </p>
+      <p><strong>Apoio na Palma da Sua Mão:</strong></p>
       <p>Na luta contra o vício de substâncias ilegais, os Recursos Online e Linhas de Ajuda se erguem como ferramentas valiosas para auxiliar indivíduos em situação de vício e seus familiares na jornada de recuperação. Através da internet e do telefone, é possível ter acesso a um leque de informações, serviços e apoio emocional, tudo na palma da sua mão, 24 horas por dia, 7 dias por semana.</p>
-      <p>Diversidade de Recursos:</p>
+      <p><strong>Diversidade de Recursos:</strong></p>
       <p>A internet oferece uma variedade de Recursos Online que podem ser úteis para quem está enfrentando o vício:</p>
-      <p>Sites de informação: Diversos sites fornecem informações confiáveis sobre o vício, seus efeitos, os diferentes tipos de tratamento disponíveis e dicas para lidar com os desafios da recuperação. Alguns exemplos:</p>
+      <p><strong>Sites de informação:</strong> Diversos sites fornecem informações confiáveis sobre o vício, seus efeitos, os diferentes tipos de tratamento disponíveis e dicas para lidar com os desafios da recuperação. Alguns exemplos:</p>
       <p><a href='https://cvv.org.br/page/2/'>https://cvv.org.br/page/2/</a></p>
-      <p><a href="https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/arquivo-manual-de-avaliacao-e-alienacao-de-bens/planad_set_2022.pdf">https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/arquivo-manual-de-avaliacao-e-alienacao-de-bens/planad_set_2022.pdf</a></p>
+      <p><a href='https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/arquivo-manual-de-avaliacao-e-alienacao-de-bens/planad_set_2022.pdf'>https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/arquivo-manual-de-avaliacao-e-alienacao-de-bens/planad_set_2022.pdf</a></p>
       <p><a href='https://nida.nih.gov/es'>https://nida.nih.gov/es</a></p>
-      <p>Grupos de apoio online: Fóruns e grupos online permitem que indivíduos em situação de vício e seus familiares se conectem, compartilhem experiências, troquem informações e ofereçam apoio mútuo. Alguns exemplos:</p>
+      <p><strong>Grupos de apoio online:</strong> Fóruns e grupos online permitem que indivíduos em situação de vício e seus familiares se conectem, compartilhem experiências, troquem informações e ofereçam apoio mútuo. Alguns exemplos:</p>
       <p><a href='https://na.org/'>https://na.org/</a></p>
       <p><a href='https://www.gruponovavida.com.br/blog/grupo-de-apoio-a-familiares-de-dependentes-quimicos'>https://www.gruponovavida.com.br/blog/grupo-de-apoio-a-familiares-de-dependentes-quimicos</a></p>
       <p><a href='https://www.gruporecanto.com.br/blog/grupos-de-apoio-importancia-beneficios-e-como-frequentar/'>https://www.gruporecanto.com.br/blog/grupos-de-apoio-importancia-beneficios-e-como-frequentar/</a></p>
-      <p>Aplicativos de recuperação: Diversos aplicativos oferecem ferramentas e recursos para auxiliar na recuperação do vício, como acompanhamento do progresso, lembretes de medicação, técnicas de relaxamento e suporte emocional. Exemplo:</p>
+      <p><strong>Aplicativos de recuperação:</strong> Diversos aplicativos oferecem ferramentas e recursos para auxiliar na recuperação do vício, como acompanhamento do progresso, lembretes de medicação, técnicas de relaxamento e suporte emocional. Exemplo:</p>
       <p><a href='https://play.google.com/store/apps/details?id=com.shpavda.bad_habit_break&hl=es_EC&gl=US'>https://play.google.com/store/apps/details?id=com.shpavda.bad_habit_break&hl=es_EC&gl=US</a></p>
-      <p>Linhas de ajuda: Serviços de atendimento telefônico oferecem apoio emocional, orientação e informações sobre o vício e os recursos disponíveis para tratamento e recuperação. Alguns exemplos:</p>
-      <p>Centro de Valorização da Vida (CVV): 188</p>
-      <p>Narcotics Anonymous (NA): 0800 772 3444</p>
-      <p>Grupos de Apoio para Familiares e Amigos de Alcoólicos e Drogaditos (GRAAAD): (11) 3322-4444</p>
-      <p>Benefícios dos Recursos Online e Linhas de Ajuda:</p>
+      <p><strong>Linhas de ajuda:</strong> Serviços de atendimento telefônico oferecem apoio emocional, orientação e informações sobre o vício e os recursos disponíveis para tratamento e recuperação. Alguns exemplos:</p>
+      <p><strong>Centro de Valorização da Vida (CVV): 188</strong></p>
+      <p><strong>Narcotics Anonymous (NA): 0800 772 3444</strong></p>
+      <p><strong>Grupos de Apoio para Familiares e Amigos de Alcoólicos e Drogaditos (GRAAAD): (11) 3322-4444</strong></p>
+      <p><strong>Benefícios dos Recursos Online e Linhas de Ajuda:</strong></p>
       <p>Os Recursos Online e Linhas de Ajuda oferecem diversos benefícios para quem está enfrentando o vício: acessibilidade, anonimato, imediação, flexibilidade, complementaridade</p>
     </div>
   </div>
@@ -281,6 +285,18 @@ function SelfHelpPage() {
   );
 }
 
+function MapPage() {
+  return (
+    <div>
+      <h1 className='findacenter'>Encontre os Centros de Apoio a partir do Mapa:</h1>
+      {/* Adicione o mapa do Google Maps usando um elemento <iframe> */}
+      <iframe title="Mapa de Higienópolis, São Paulo" width="100%" height="700" loading='lazy' allowFullScreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.239695574176!2d-46.65624468472896!3d-23.5461664846808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58cde41618d1%3A0xed5038f90c2a4c0!2sUniversidade%20Presbiteriana%20Mackenzie%20-%20Higien%C3%B3polis!5e0!3m2!1sen!2sbr!4v1617982787875!5m2!1sen!2sbr" style={{ border: 0 }}></iframe>
+    </div>
+  );
+}
+
+
+
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
@@ -298,6 +314,7 @@ function App() {
           <li onClick={() => handleMenuClick('Testimony')} className={currentPage === 'Testimony' ? 'active' : ''}>Testemunhas</li>
           <li onClick={() => handleMenuClick('SelfHelp')} className={currentPage === 'SelfHelp' ? 'active' : ''}>Autoajuda</li>
           <li onClick={() => handleMenuClick('Formulary')} className={currentPage === 'Formulary' ? 'active' : ''}>Formulário</li>
+          <li onClick={() => handleMenuClick('Map')} className={currentPage === 'Map' ? 'active' : ''}>Centros de Ajuda</li> {/* Adiciona o link para a página MapPage */}
         </ul>
         <img src="logoMackCuida.jpg" className="navbar-logo" />
       </nav>
@@ -315,6 +332,7 @@ function App() {
         {currentPage === 'Support' && <SupportPage />}
         {currentPage === 'Formulary' && <FormularyPage />}
         {currentPage === 'SelfHelp' && <SelfHelpPage />}
+        {currentPage === 'Map' && <MapPage />}
       </div>
     </div>
   );
